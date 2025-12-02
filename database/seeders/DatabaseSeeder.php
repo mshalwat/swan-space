@@ -1,0 +1,32 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\User;
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
+
+class DatabaseSeeder extends Seeder
+{
+    public function run(): void
+    {
+        // Create admin user
+        User::updateOrCreate(
+            ['email' => 'admin@example.com'],
+            [
+                'name' => 'Admin',
+                'password' => Hash::make('password123'),
+                'email_verified_at' => now(),
+            ]
+        );
+
+        // Seed content
+        $this->call([
+            ContentSectionSeeder::class,
+            PageSeeder::class,
+            PageContentSeeder::class,
+            ServiceSeeder::class,
+            TestimonialSeeder::class,
+        ]);
+    }
+}
