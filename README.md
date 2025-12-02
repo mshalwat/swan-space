@@ -70,7 +70,7 @@ Visit: <http://localhost:8000>
 
 # Swan Schule Website (Laravel)
 
-This repository contains the Swan Schule marketing website built with Laravel, Filament (admin panel), Tailwind CSS, and Vite. It includes multilingual content (EN/DE), dynamic sections sourced from the database, and an admin panel for managing content.
+This repository contains the Swan Space marketing website built with Laravel, Filament (admin panel), Tailwind CSS, and Vite. It includes multilingual content (EN/DE), dynamic sections sourced from the database, and an admin panel for managing content.
 
 ## Features
 
