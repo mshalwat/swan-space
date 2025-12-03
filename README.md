@@ -1,7 +1,6 @@
 # 🦢 SwanSpace - Digital Solutions for Modern Education
 
-A complete Laravel website with full admin panel, space-themed design, and dual-language support. Ready to deploy on **IONOS** with domain **swan-space.de**.
-
+A complete Laravel website with full admin panel, space-themed design, and dual-language support. Ready to deploy 
 ## 🌟 Features
 
 - ✨ **Space-Themed Design**: Animated stars, floating nebulas, glass morphism effects
@@ -68,7 +67,7 @@ Visit: <http://localhost:8000>
 
 **📖 Full Guide:** [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)
 
-# Swan Schule Website (Laravel)
+# Swan SPACE Website (Laravel)
 
 This repository contains the Swan Space marketing website built with Laravel, Filament (admin panel), Tailwind CSS, and Vite. It includes multilingual content (EN/DE), dynamic sections sourced from the database, and an admin panel for managing content.
 
